@@ -1,0 +1,12 @@
+Converting geojson to vector slices in PBF format
+
+example:
+
+//elasticsearch查询瓦片范围内的矢量数据并实时切片
+
+http://192.168.100.169:3600/tile/esSearchTiles?tilecache=true&x={x}&y={y}&z={z}&sszrq=87
+
+
+//elasticsearch查询行政区划范围内的geojson数据
+
+http://192.168.100.169:3600/tile/esSearchGeoJson?featureType=0&citycode=420102
